@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Enzo Mayo">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="assets/nav.js"></script>
+    <title>List Sorter</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="navbar"><span class="navbar-toggle" id="js-navbar-toggle">☰ </span> <a class="logo" href="#">
+                    <svg class="logo" viewbox="0 0 77 47" width="20%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-1-1h79v49H-1z" fill="#fff"></path>
+                        <g> <text fill="#306856" font-family="Helvetica, Arial, sans-serif" font-size="2rem"
+                                stroke="#2675e7" stroke-width="3" transform="matrix(.87365 0 0 1 23.53 0)" x="-25.21"
+                                y="36.66"> &lt;C/&gt; </text> </g>
+                    </svg></a>
+                <ul class="main-nav" id="js-menu">
+                    <li><a class="nav-links" href="index.html">Home</a></li>
+                    <li><a class="nav-links" href="courses.html">Courses</a></li>
+                    <li><a class="nav-links" href="contact.html">Contact</a></li>
+                    <li><a class="nav-links" href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>List Sorter</h1>
+            <h2>Unsorted List</h2>
+            <ul id="js-unsortedlist"></ul>
+
+            <label for="listitem">Add To Unsorted List</label>
+            <input type="text" name="listitem" id="listitem">
+            <button class="btn" id="addToList">Add To Unsorted List</button>
+
+            <button class="btn blockify" id="sort">Show in Sorted Order (Ascending)</button>
+            <br>
+            <h2>Sorted List</h2>
+            <ol id="js-sortedlist"></ol>
+        </main>
+        <footer> <a href="mailto:codeball@gmail.com">codeball@gmail.com</a> </footer>
+    </div>
+    <script type="module" src="/js/list-sorter.js"></script>
+</body>
+
+</html>

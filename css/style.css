@@ -149,6 +149,10 @@ textarea, input, label {
     display: block;
 }
 
+.blockify {
+    display: block !important;
+}
+
 textarea, input[type=text], input[type=tel], input[type=email] {
     width: 100%;
     height: auto;
@@ -195,7 +199,7 @@ table a {
     border-radius: 5px;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"], input[type="reset"], .btn {
     display: inline-block;
     margin: .5rem 1rem;
     padding: .5rem 1rem;
